@@ -52,7 +52,6 @@ function deleteTodo(e) {
 
     item.addEventListener('transitionend', function () {
         item.remove();
-        // document.querySelector('li').innerHTML = '';
     });
 
     item.classList.add('todo-list-item-fall');
